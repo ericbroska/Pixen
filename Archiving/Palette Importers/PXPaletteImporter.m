@@ -108,8 +108,10 @@
 	
 	if (modalSheet) [NSApp stopModal];
 	else {
-		NSString *message = [NSString stringWithFormat:@"%ld palette(s) were imported.", [[_openPanel URLs] count]];
-		NSRunAlertPanel(@"Success", message, @"OK", nil, nil);
+		NSString *message = [NSString stringWithFormat:NSLocalizedString(@"%ld palette(s) were imported.", @"Palettes were imported alert message"), [[_openPanel URLs] count]];
+		NSRunAlertPanel(NSLocalizedString(@"Success", @"Palettes Were Imported Alert Title"),
+                        message,
+                        @"OK", nil, nil);
 	}
 }
 
@@ -118,8 +120,8 @@
 	_openPanel = [NSOpenPanel openPanel];
 	[_openPanel setAllowsMultipleSelection:YES];
 	[_openPanel setCanChooseDirectories:NO];
-	[_openPanel setPrompt:@"Install"];
-	[_openPanel setTitle:@"Install"];
+	[_openPanel setPrompt:NSLocalizedString(@"Install", @"Install")];
+	[_openPanel setTitle:NSLocalizedString(@"Install", @"Install")];
 	[_openPanel setAllowedFileTypes:[NSArray arrayWithObjects:PXPaletteSuffix, MicrosoftPaletteSuffix, AdobePaletteSuffix, GimpPaletteSuffix, nil]];
 	
 	if (window) {

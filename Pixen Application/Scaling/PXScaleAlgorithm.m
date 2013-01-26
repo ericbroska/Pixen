@@ -28,7 +28,7 @@
 
 - (NSString *)algorithmInfo
 {
-	return @"No information is available on this algorithm.";
+	return NSLocalizedString(@"No information is available on this algorithm.", @"Will anybody use this one?");
 }
 
 - (BOOL)canScaleCanvas:(PXCanvas *)canvas toSize:(NSSize)size

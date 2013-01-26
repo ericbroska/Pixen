@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BuildMachineOSBuild</key>
+	<string>12C60</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDocumentTypes</key>
@@ -63,6 +65,8 @@
 			<array>
 				<string>gif</string>
 			</array>
+			<key>CFBundleTypeName</key>
+			<string>GIF image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSItemContentTypes</key>
@@ -71,8 +75,6 @@
 			</array>
 			<key>LSTypeIsPackage</key>
 			<false/>
-			<key>CFBundleTypeName</key>
-			<string>GIF image</string>
 			<key>NSDocumentClass</key>
 			<string>PXCanvasDocument</string>
 		</dict>
@@ -82,6 +84,8 @@
 				<string>jpg</string>
 				<string>jpeg</string>
 			</array>
+			<key>CFBundleTypeName</key>
+			<string>JPEG image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSItemContentTypes</key>
@@ -90,8 +94,6 @@
 			</array>
 			<key>LSTypeIsPackage</key>
 			<false/>
-			<key>CFBundleTypeName</key>
-			<string>JPEG image</string>
 			<key>NSDocumentClass</key>
 			<string>PXCanvasDocument</string>
 		</dict>
@@ -104,6 +106,8 @@
 			<array>
 				<string>image/png</string>
 			</array>
+			<key>CFBundleTypeName</key>
+			<string>PNG image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSItemContentTypes</key>
@@ -112,8 +116,6 @@
 			</array>
 			<key>LSTypeIsPackage</key>
 			<false/>
-			<key>CFBundleTypeName</key>
-			<string>PNG image</string>
 			<key>NSDocumentClass</key>
 			<string>PXCanvasDocument</string>
 		</dict>
@@ -123,6 +125,8 @@
 				<string>tiff</string>
 				<string>tif</string>
 			</array>
+			<key>CFBundleTypeName</key>
+			<string>TIFF image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSItemContentTypes</key>
@@ -131,8 +135,6 @@
 			</array>
 			<key>LSTypeIsPackage</key>
 			<false/>
-			<key>CFBundleTypeName</key>
-			<string>TIFF image</string>
 			<key>NSDocumentClass</key>
 			<string>PXCanvasDocument</string>
 		</dict>
@@ -141,6 +143,8 @@
 			<array>
 				<string>bmp</string>
 			</array>
+			<key>CFBundleTypeName</key>
+			<string>BMP image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSItemContentTypes</key>
@@ -149,8 +153,6 @@
 			</array>
 			<key>LSTypeIsPackage</key>
 			<false/>
-			<key>CFBundleTypeName</key>
-			<string>BMP image</string>
 			<key>NSDocumentClass</key>
 			<string>PXCanvasDocument</string>
 		</dict>
@@ -159,6 +161,8 @@
 			<array>
 				<string>ico</string>
 			</array>
+			<key>CFBundleTypeName</key>
+			<string>ICO image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSItemContentTypes</key>
@@ -167,8 +171,6 @@
 			</array>
 			<key>LSTypeIsPackage</key>
 			<false/>
-			<key>CFBundleTypeName</key>
-			<string>ICO image</string>
 			<key>NSDocumentClass</key>
 			<string>PXCanvasDocument</string>
 			<key>NSPersistentStoreTypeKey</key>
@@ -337,6 +339,20 @@
 	<string>PiXn</string>
 	<key>CFBundleVersion</key>
 	<string>3.5.70</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>4G1004</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>12C37</string>
+	<key>DTSDKName</key>
+	<string>macosx10.8</string>
+	<key>DTXcode</key>
+	<string>0451</string>
+	<key>DTXcodeBuild</key>
+	<string>4G1004</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.graphics-design</string>
 	<key>LSMinimumSystemVersion</key>

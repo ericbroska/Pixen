@@ -16,6 +16,17 @@
 
 + (NSArray *)types
 {
+    PixenPaletteType = NSLocalizedStringWithDefaultValue(@"PixenPaletteType", nil, [NSBundle mainBundle], PixenPaletteType,
+                                                         @"Localized value of `PixenPaletteType`");
+    MicrosoftPaletteType = NSLocalizedStringWithDefaultValue(@"MicrosoftPaletteType", nil,[NSBundle mainBundle],MicrosoftPaletteType,
+                                                             @"Localized value of `MicrosoftPaletteType`");
+    JascPaletteType = NSLocalizedStringWithDefaultValue(@"JascPaletteType", nil, [NSBundle mainBundle], JascPaletteType,
+                                                        @"Localized value of `JascPaletteType`");
+    AdobePaletteType = NSLocalizedStringWithDefaultValue(@"AdobePaletteType", nil, [NSBundle mainBundle], AdobePaletteType,
+                                                        @"Localized value of `AdobePaletteType`");
+    GimpPaletteType = NSLocalizedStringWithDefaultValue(@"GimpPaletteType", nil, [NSBundle mainBundle], AdobePaletteType,
+                                                         @"Localized value of `GimpPaletteType`");
+    
 	return [NSArray arrayWithObjects:PixenPaletteType, MicrosoftPaletteType, JascPaletteType, AdobePaletteType, GimpPaletteType, nil];
 }
 
@@ -95,7 +106,7 @@
 	
 	_savePanel = [NSSavePanel savePanel];
 	[_savePanel setAllowedFileTypes:[NSArray arrayWithObjects:PXPaletteSuffix, MicrosoftPaletteSuffix, AdobePaletteSuffix, GimpPaletteSuffix, nil]];
-	[_savePanel setPrompt:@"Export"];
+	[_savePanel setPrompt:NSLocalizedString(@"Export", @"Export")];
 	[_savePanel setExtensionHidden:YES];
 	[_savePanel setNameFieldStringValue:_palette.name];
 	

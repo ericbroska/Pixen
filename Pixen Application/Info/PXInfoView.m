@@ -161,7 +161,7 @@ typedef NS_ENUM(NSUInteger, PXCanvasInfoMode) {
 - (NSTextField *)widthLabel {
 	if (!_widthL) {
 		_widthL = [self newLabel];
-		[_widthL setStringValue:@"W:"];
+		[_widthL setStringValue:NSLocalizedString(@"W:", @"Width Abbreviature")];
 		[_widthL sizeToFit];
 	}
 	
@@ -171,7 +171,7 @@ typedef NS_ENUM(NSUInteger, PXCanvasInfoMode) {
 - (NSTextField *)heightLabel {
 	if (!_heightL) {
 		_heightL = [self newLabel];
-		[_heightL setStringValue:@"H:"];
+		[_heightL setStringValue:NSLocalizedString(@"H:",@"Height Abbreviature")];
 		[_heightL sizeToFit];
 	}
 	

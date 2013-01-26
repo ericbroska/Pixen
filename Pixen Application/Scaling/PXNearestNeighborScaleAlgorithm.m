@@ -16,7 +16,7 @@
 
 - (NSString *)name
 {
-	return @"Nearest Neighbor";
+	return NSLocalizedString(@"Nearest Neighbor", @"Nearest Neighbor");
 }
 
 - (NSString *)algorithmInfo

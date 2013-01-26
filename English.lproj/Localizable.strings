@@ -82,6 +82,11 @@
 /* Slashed Background */
 "SLASHED_BACKGROUND" = "Slashed Background";
 
+/* Main Background */
+"Main Background" = "Main Background";
+/* Alternate Background */
+"Alternate Background" = "Alternate Background";
+
 /* Palette Save As */
 "PALETTE_SAVE_AS" = "Save as new palette…";
 /* Palette Set Default */
@@ -111,10 +116,10 @@
 
 /* Width */
 "WIDTH" = "Width";
-"WIDTH_ABBR" = "W";
+"W:" = "W:";
 /* Height */
 "HEIGHT" = "Height";
-"HEIGHT_ABBR" = "H";
+"H:" = "H:";
 
 /* Red */
 "RED" = "Red";
@@ -137,10 +142,14 @@
 /* Set Pattern… */
 "SET_PATTERN" = "Set Pattern…";
 
+/* Nearest Neighbor */
+"Nearest Neighbor" = "Nearest Neighbor";
 /* Nearest Neighbor Info */
 "NEAREST_NEIGHBOR_INFO" = "For every pixel in the new image, this algorithm finds the closest pixel in the current image and uses that color. This results in a lossy image if you're not scaling up by a power of two (2x, 4x, 8x, 16x, ...) This algorithm is ideal if you want a larger image that looks identical to the current image.";
 /* Scale2x Info */
 "SCALE2X_INFO" = "This algorithm provides a larger, smoother image without introducing new colors. This algorithm may only be used to scale up by powers of two, and it works best for scaling up by 2x in both dimensions.";
+/* Quartz Info */
+"QUARTZ_INFO" = "This algorithm uses Quartz's built-in scaling behavior.";
 
 /* --------------- TOOLS --------------- */
 
@@ -244,3 +253,246 @@
 "CUT_FRAME" = "Cut Frame";
 "DUPLICATE_FRAME" = "Duplicate Frame";
 "DELETE_FRAME" = "Delete Frame";
+
+/* BACKGROUND_OVERWRITE_PROMPT */
+"A background with the name %@ already exists." = "A background with the name %@ already exists.";
+
+/* Built-in Templates */
+"Built-in Templates" = "Built-in Templates";
+
+/* Built-in Template */
+"Built-in Template" = "Built-in Template";
+
+/* CANCEL */
+"Cancel" = "Cancel";
+
+/* Default Templates */
+"Default Templates" = "Default Templates";
+
+/* DELETE */
+"Delete" = "Delete";
+
+/* OVERWRITE */
+"Overwrite" = "Overwrite";
+
+/* BACKGROUND_DELETE_PROMPT */
+"Really delete background template %@?" = "Really delete background template %@?";
+
+/* BACKGROUND_DELETE_INFORMATIVE_TEXT */
+"This operation cannot be undone." = "This operation cannot be undone.";
+
+/* User Templates */
+"User Templates" = "User Templates";
+
+/* BACKGROUND_OVERWRITE_INFORMATIVE_TEXT */
+"Would you like to overwrite it?" = "Would you like to overwrite it?";
+
+/* ALTERNATE_BACKGROUND_INFO */
+"Drag a template here, and it will be displayed when the mouse is outside of the canvas." = "Drag a template here, and it will be displayed when the mouse is outside of the canvas.";
+
+/* Main Layer */
+"Main Layer" = "Main Layer";
+
+/* The pasted %@ is too big! */
+"The pasted %@ is too big!" = "The pasted %@ is too big!";
+
+/* Resize Canvas to Fit */
+"Resize Canvas to Fit" = "Resize Canvas to Fit";
+
+/* Cancel Paste */
+"Cancel Paste" = "Cancel Paste";
+
+/* Paste Anyway */
+"Paste Anyway" = "Paste Anyway";
+
+/* The pasted %@ is %dx%d, while the canvas is only %dx%d. */
+"The pasted %@ is %dx%d, while the canvas is only %dx%d." = "The pasted %@ is %dx%d, while the canvas is only %dx%d."";
+
+/* layer */
+"layer" = "layer";
+
+/* image */
+"image" = "image";
+
+/* Pasted Layer */
+"Pasted Layer" = "Pasted Layer";
+
+/*  Copy */
+" Copy" = " Copy";
+/* */
+"%@ Copy" = "%@ Copy";
+
+/* Promoted Selection */
+"Promoted Selection" = "Backgrounds";
+
+/* Backgrounds */
+"Backgrounds" = "Backgrounds";
+
+/* Document Palette */
+"Document Palette" = "Document Palette";
+
+/* Default %@ */
+"Default %@" = "Default %@";
+
+/* Default Alternate Background */
+"Default Alternate Background" = "Default Alternate Background";
+
+/* Install Background Template \"%@\"? */
+"Install Background Template \"%@\"?" = "Install Background Template \"%@\"?";
+
+/* Install */
+"Install" = "Install";
+
+/* %@ will be copied to %@. */
+"%@ will be copied to %@." = "%@ will be copied to %@.";
+
+/* Install pattern '%@'? */
+"Install pattern '%@'?" = "Install pattern '%@'?";
+
+/* Confirmation */
+"Confirmation" = "Confirmation";
+
+/* Install palette '%@'? */
+"Install palette '%@'?" = "Install palette '%@'?";
+
+/* Duplicate */
+"Duplicate" = "Duplicate";
+
+/* Merge Down */
+"Merge Down" = "Merge Down";
+
+/* Cut */
+"Cut" = "Cut";
+
+/* Transform Layer */
+"Transform Layer" = "Transform Layer";
+
+/* Flip Horizontally */
+"Flip Horizontally" = "Flip Horizontally";
+
+/* Flip Vertically */
+"Flip Vertically" = "Flip Vertically";
+
+/* Rotate 90%@ Left */
+"Rotate 90%@ Left" = "Rotate 90%@ Left";
+
+/* Rotate 90%@ Right */
+"Rotate 90%@ Right" = "Rotate 90%@ Right";
+
+/* Rotate 180%@ */
+"Rotate 180%@" = "Rotate 180%@";
+
+/* New Layer %d */
+"New Layer %d" = "New Layer %d";
+
+
+/* Presets */
+"Preset" = "Шаблоны…";
+"Save Preset As..." = "Save Preset As...";
+"Manage Presets..." = "Manage Presets...";
+"Enter a name for this preset:" = "Enter a name for this preset:";
+
+/* Temp Layer */
+"Temp Layer" = "Temp Layer";
+
+/* Please name the new configuration. */
+"Please name the new configuration." = "Please name the new configuration.";
+
+/* No Palettes */
+"No Palettes" = "No Palettes";
+
+/* Are you sure you want to delete the palette '%@' */
+"Are you sure you want to delete the palette '%@'?" = "Are you sure you want to delete the palette '%@'?";
+
+/* Untitled Palette */
+"Untitled Palette" = "Untitled Palette";
+
+/* Rename the palette '%@' */
+"Rename the palette '%@'" = "Rename the palette '%@'";
+
+/* Pattern Editor: */
+"Pattern Editor: " = "Pattern Editor: ";
+
+/* Are you sure you want to delete the selected pattern? */
+"Are you sure you want to delete the selected pattern?" = "Are you sure you want to delete the selected pattern?";
+
+/* Size To... */
+"Size To..." = "Size To...";
+
+/* Set Background... */
+"Set Background..." = "Set Background...";
+
+/* Backgrounds - Preview */
+"Backgrounds - Preview" = "Backgrounds - Preview";
+
+/* Color Picker Button Tooltip */
+"Pixen Colors" = "Pixen Colors";
+
+/* Import Animation From Image Sequence */
+/* Import Panel Prompt */
+"Import" = "Import";
+/* Export Panel Prompt */
+"Export" = "Export";
+
+/* Import Panel Title */
+"Import Sequence" = "Import Sequence";
+
+/* Exporting GIF Initial Status Text Format */
+"Exporting GIF... (1 of %ld)" = "Exporting GIF... (1 of %ld)";
+
+/* Exporting GIF Status Text Format */
+"Exporting GIF... (%ld of %ld)" = "Exporting GIF... (%ld of %ld)";
+
+/* Error Alert Title */
+"Error" = "Error";
+/* QT Export Error Message */
+"Could not export QuickTime movie." = "Could not export QuickTime movie.";
+
+/* Export to QT Panel Label */
+"Export to:" = "Export to:";
+
+/* Hide Grid */
+"Hide Grid" = "Hide Grid";
+
+/* Show Grid */
+"Show Grid" = "Show Grid";
+
+/* Hide Info Bar */
+"Hide Info Bar" = "Hide Info Bar";
+
+/* Show Info Bar */
+"Show Info Bar" = "Show Info Bar";
+
+/* Palettes were imported alert message */
+"%ld palette(s) were imported." = "%ld palette(s) were imported.";
+
+/* Palettes Were Imported Alert Title */
+"Success" = "Success";
+
+/* --------------- Pallete Types --------------- */
+
+/* Localized value of `PixenPaletteType` */
+"PixenPaletteType" = "Pixen Palette Format (.pxpalette)";
+
+/* Localized value of `MicrosoftPaletteType` */
+"MicrosoftPaletteType" = "Microsoft RAW Palette Format (.pal)";
+
+/* Localized value of `JascPaletteType` */
+"JascPaletteType" = "Jasc Paint Shop Pro Palette Format (.pal)";
+
+/* Localized value of `AdobePaletteType` */
+"AdobePaletteType" = "Adobe Color Table (.act)";
+
+/* Localized value of `GimpPaletteType` */
+"GimpPaletteType" = "Gimp Palette Format (.gpl)";
+
+/* --------------- UTI Types --------------- */
+
+"Pixen image" = "Pixen image";
+"Pixen animation" = "Pixen animation";
+"GIF image" = "GIF image";
+"JPEG image" = "JPEG image";
+"PNG image" = "PNG image";
+"TIFF image" = "TIFF image";
+"BMP image" = "BMP image";
+"ICO image" = "ICO image;

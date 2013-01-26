@@ -75,7 +75,7 @@
 
 - (void)drawNoDefaultText
 {
-	NSSize stringSize = NSMakeSize(180.0f, 20.0f);
+	NSSize stringSize = NSMakeSize(230.0f, 20.0f);
 	
 	NSRect drawFrame;
 	drawFrame.origin = NSMakePoint(NSWidth([self bounds]) / 2 - stringSize.width / 2, NSHeight([self bounds]) / 2 - stringSize.height / 2);

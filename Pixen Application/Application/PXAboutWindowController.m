@@ -36,7 +36,7 @@
 	
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"Credits" ofType:@"html"];
 	
-	NSString *string = [[NSString alloc] initWithContentsOfFile:path encoding:NSASCIIStringEncoding error:nil];
+	NSString *string = [[NSString alloc] initWithContentsOfFile:path encoding: NSUTF8StringEncoding error:nil];
 	NSString *contents = [string stringByReplacingOccurrencesOfString:@"VERSION_PLACEHOLDER" withString:version];
 	
 	NSURL *baseURL = [[NSBundle mainBundle] resourceURL];

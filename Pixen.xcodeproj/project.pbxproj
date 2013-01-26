@@ -1004,6 +1004,46 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = English; path = English.lproj/Credits.html; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2CC0C52516B040E90070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2CC0C52616B040E90070A3B7 /* ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ru; path = ru.lproj/Credits.html; sourceTree = "<group>"; };
+		2CC0C52716B040E90070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CC0C52816B040EA0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2CC0C52916B040EA0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXBackgroundTemplateView.xib; sourceTree = "<group>"; };
+		2CC0C52A16B040EA0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXBlankPropertiesView.xib; sourceTree = "<group>"; };
+		2CC0C52B16B040EB0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXCanvasDocument.xib; sourceTree = "<group>"; };
+		2CC0C52C16B040EB0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXCanvasResizePrompt.xib; sourceTree = "<group>"; };
+		2CC0C52D16B040EB0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXDiscoverPixen.xib; sourceTree = "<group>"; };
+		2CC0C52E16B040EB0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXDuotoneBackgroundConfigurator.xib; sourceTree = "<group>"; };
+		2CC0C52F16B040EC0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXEyedropperToolPropertiesView.xib; sourceTree = "<group>"; };
+		2CC0C53016B040EC0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXFillToolPropertiesView.xib; sourceTree = "<group>"; };
+		2CC0C53116B040EC0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXGeneralPreferences.xib; sourceTree = "<group>"; };
+		2CC0C53216B040EC0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXGridSettings.xib; sourceTree = "<group>"; };
+		2CC0C53316B040EC0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXHotkeysPreferences.xib; sourceTree = "<group>"; };
+		2CC0C53416B040ED0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXImageSizePrompt.xib; sourceTree = "<group>"; };
+		2CC0C53516B040ED0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXLayerController.xib; sourceTree = "<group>"; };
+		2CC0C53616B040ED0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXManagePresetsWindow.xib; sourceTree = "<group>"; };
+		2CC0C53716B040ED0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXMonotoneBackgroundConfigurator.xib; sourceTree = "<group>"; };
+		2CC0C53816B040ED0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXNamePrompt.xib; sourceTree = "<group>"; };
+		2CC0C53916B040ED0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXPalette.xib; sourceTree = "<group>"; };
+		2CC0C53A16B040EE0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXPaletteController.xib; sourceTree = "<group>"; };
+		2CC0C53B16B040EE0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXPatternEditor.xib; sourceTree = "<group>"; };
+		2CC0C53C16B040EE0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXPatternItem.xib; sourceTree = "<group>"; };
+		2CC0C53D16B040EF0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXPencilToolPropertiesView.xib; sourceTree = "<group>"; };
+		2CC0C53E16B040EF0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXPreferences.xib; sourceTree = "<group>"; };
+		2CC0C53F16B040EF0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXPreview.xib; sourceTree = "<group>"; };
+		2CC0C54016B040EF0070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXPreviewResizePrompt.xib; sourceTree = "<group>"; };
+		2CC0C54116B040F00070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXScalePrompt.xib; sourceTree = "<group>"; };
+		2CC0C54216B040F00070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXSequenceExportView.xib; sourceTree = "<group>"; };
+		2CC0C54316B040F00070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXShapeToolPropertiesView.xib; sourceTree = "<group>"; };
+		2CC0C54416B040F00070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXSpriteSheetExporter.xib; sourceTree = "<group>"; };
+		2CC0C54516B040F00070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXToolProperties.xib; sourceTree = "<group>"; };
+		2CC0C54616B040F10070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = ru.lproj/OSProgressPopup.nib; sourceTree = "<group>"; };
+		2CC0C54716B040F10070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXInfoPanel.xib; sourceTree = "<group>"; };
+		2CC0C54816B040F10070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXAnimationDocument.xib; sourceTree = "<group>"; };
+		2CC0C54916B040F20070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = ru.lproj/PXBackgroundController.nib; sourceTree = "<group>"; };
+		2CC0C54A16B040F20070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = ru.lproj/PXImageBackgroundConfigurator.nib; sourceTree = "<group>"; };
+		2CC0C54B16B040F30070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXToolPalette.xib; sourceTree = "<group>"; };
+		2CC0C54C16B040F30070A3B7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/PXAbout.xib; sourceTree = "<group>"; };
 		6117815F08ABA7F30098DCC4 /* PXAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PXAnimationView.h; sourceTree = "<group>"; };
 		6117816008ABA7F30098DCC4 /* PXAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PXAnimationView.m; sourceTree = "<group>"; };
 		619DC352085BCD37007EF7F7 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PXPreviewResizePrompt.xib; sourceTree = "<group>"; };
@@ -2911,6 +2951,7 @@
 				en,
 				English,
 				French,
+				ru,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Pixen */;
 			projectDirPath = "";
@@ -3576,6 +3617,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				089C1660FE840EACC02AAC07 /* English */,
+				2CC0C52716B040E90070A3B7 /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3584,6 +3626,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2A37F4BAFDCFA73011CA2CEA /* English */,
+				2CC0C52616B040E90070A3B7 /* ru */,
 			);
 			name = Credits.html;
 			sourceTree = "<group>";
@@ -3592,6 +3635,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EA88F45C05D1C172003DEBD3 /* English */,
+				2CC0C53516B040ED0070A3B7 /* ru */,
 			);
 			name = PXLayerController.xib;
 			sourceTree = "<group>";
@@ -3600,6 +3644,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				619DC352085BCD37007EF7F7 /* English */,
+				2CC0C54016B040EF0070A3B7 /* ru */,
 			);
 			name = PXPreviewResizePrompt.xib;
 			sourceTree = "<group>";
@@ -3608,6 +3653,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				61A956BB08AD76CF009BB89F /* English */,
+				2CC0C54616B040F10070A3B7 /* ru */,
 			);
 			name = OSProgressPopup.nib;
 			sourceTree = "<group>";
@@ -3616,6 +3662,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				61BD25C9067A1DD80054A2BB /* English */,
+				2CC0C52516B040E90070A3B7 /* ru */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3624,6 +3671,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				61F598BA067949D500B8C8CA /* English */,
+				2CC0C54116B040F00070A3B7 /* ru */,
 			);
 			name = PXScalePrompt.xib;
 			sourceTree = "<group>";
@@ -3632,6 +3680,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				61FED6C308BCC646005E51EA /* English */,
+				2CC0C54216B040F00070A3B7 /* ru */,
 			);
 			name = PXSequenceExportView.xib;
 			sourceTree = "<group>";
@@ -3640,6 +3689,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C900F4BD1509882F00DC6702 /* English */,
+				2CC0C54B16B040F30070A3B7 /* ru */,
 			);
 			name = PXToolPalette.xib;
 			sourceTree = "<group>";
@@ -3648,6 +3698,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C912F26C13D5CDC100C0CF29 /* English */,
+				2CC0C54416B040F00070A3B7 /* ru */,
 			);
 			name = PXSpriteSheetExporter.xib;
 			sourceTree = "<group>";
@@ -3656,6 +3707,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C91F07D2142D0BAB007F812C /* English */,
+				2CC0C54716B040F10070A3B7 /* ru */,
 			);
 			name = PXInfoPanel.xib;
 			sourceTree = "<group>";
@@ -3664,6 +3716,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C92A1E9113B12CAB0007235A /* English */,
+				2CC0C52816B040EA0070A3B7 /* ru */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -3672,6 +3725,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C93DB17E13ABC6BE006D42FE /* English */,
+				2CC0C53E16B040EF0070A3B7 /* ru */,
 			);
 			name = PXPreferences.xib;
 			sourceTree = "<group>";
@@ -3680,6 +3734,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C93DB18113ABC8BE006D42FE /* English */,
+				2CC0C53116B040EC0070A3B7 /* ru */,
 			);
 			name = PXGeneralPreferences.xib;
 			sourceTree = "<group>";
@@ -3688,6 +3743,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C94A9ED913B114DE0034AFE3 /* English */,
+				2CC0C52B16B040EB0070A3B7 /* ru */,
 			);
 			name = PXCanvasDocument.xib;
 			sourceTree = "<group>";
@@ -3696,6 +3752,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C96BABB413ABD3AB00015C92 /* English */,
+				2CC0C53316B040EC0070A3B7 /* ru */,
 			);
 			name = PXHotkeysPreferences.xib;
 			sourceTree = "<group>";
@@ -3704,6 +3761,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C973F0D7152B93810084A158 /* English */,
+				2CC0C54816B040F10070A3B7 /* ru */,
 			);
 			name = PXAnimationDocument.xib;
 			sourceTree = "<group>";
@@ -3712,6 +3770,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9799FAF13AD69C000E261EE /* English */,
+				2CC0C54316B040F00070A3B7 /* ru */,
 			);
 			name = PXShapeToolPropertiesView.xib;
 			sourceTree = "<group>";
@@ -3720,6 +3779,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9799FB713AD6ED900E261EE /* English */,
+				2CC0C53D16B040EF0070A3B7 /* ru */,
 			);
 			name = PXPencilToolPropertiesView.xib;
 			sourceTree = "<group>";
@@ -3728,6 +3788,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9799FBA13AD745500E261EE /* English */,
+				2CC0C52F16B040EC0070A3B7 /* ru */,
 			);
 			name = PXEyedropperToolPropertiesView.xib;
 			sourceTree = "<group>";
@@ -3736,6 +3797,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C984251113AFC142000072C5 /* English */,
+				2CC0C53F16B040EF0070A3B7 /* ru */,
 			);
 			name = PXPreview.xib;
 			sourceTree = "<group>";
@@ -3744,6 +3806,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C985C89814C119DF0091EF22 /* English */,
+				2CC0C52C16B040EB0070A3B7 /* ru */,
 			);
 			name = PXCanvasResizePrompt.xib;
 			sourceTree = "<group>";
@@ -3752,6 +3815,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9A0858B13DE3EB600C27061 /* English */,
+				2CC0C52D16B040EB0070A3B7 /* ru */,
 			);
 			name = PXDiscoverPixen.xib;
 			sourceTree = "<group>";
@@ -3760,6 +3824,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9A6BE1613ACFBC50028B141 /* English */,
+				2CC0C54516B040F00070A3B7 /* ru */,
 			);
 			name = PXToolProperties.xib;
 			sourceTree = "<group>";
@@ -3768,6 +3833,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9A6BE1913AD008C0028B141 /* English */,
+				2CC0C52A16B040EA0070A3B7 /* ru */,
 			);
 			name = PXBlankPropertiesView.xib;
 			sourceTree = "<group>";
@@ -3776,6 +3842,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9A6BE1C13AD07B10028B141 /* English */,
+				2CC0C53016B040EC0070A3B7 /* ru */,
 			);
 			name = PXFillToolPropertiesView.xib;
 			sourceTree = "<group>";
@@ -3784,6 +3851,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9ADD4A91400844B00257E38 /* English */,
+				2CC0C53C16B040EE0070A3B7 /* ru */,
 			);
 			name = PXPatternItem.xib;
 			sourceTree = "<group>";
@@ -3792,6 +3860,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9B1FA5D13D732FC00BB7CF7 /* English */,
+				2CC0C53616B040ED0070A3B7 /* ru */,
 			);
 			name = PXManagePresetsWindow.xib;
 			sourceTree = "<group>";
@@ -3800,6 +3869,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9BFCC8B15C3051000016E09 /* English */,
+				2CC0C53916B040ED0070A3B7 /* ru */,
 			);
 			name = PXPalette.xib;
 			sourceTree = "<group>";
@@ -3808,6 +3878,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9DC4D9A13D0E6D70065C1A6 /* English */,
+				2CC0C53416B040ED0070A3B7 /* ru */,
 			);
 			name = PXImageSizePrompt.xib;
 			sourceTree = "<group>";
@@ -3816,6 +3887,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9ECD4D5150BECB6001F686C /* English */,
+				2CC0C54C16B040F30070A3B7 /* ru */,
 			);
 			name = PXAbout.xib;
 			sourceTree = "<group>";
@@ -3824,6 +3896,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9FD44E013FD70FC00CEE4FC /* English */,
+				2CC0C53B16B040EE0070A3B7 /* ru */,
 			);
 			name = PXPatternEditor.xib;
 			sourceTree = "<group>";
@@ -3832,6 +3905,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C9FEE51A13AF81AF004FFC3C /* English */,
+				2CC0C53216B040EC0070A3B7 /* ru */,
 			);
 			name = PXGridSettings.xib;
 			sourceTree = "<group>";
@@ -3840,6 +3914,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EA6864B4054C5EDE00EE395F /* English */,
+				2CC0C54916B040F20070A3B7 /* ru */,
 			);
 			name = PXBackgroundController.nib;
 			sourceTree = "<group>";
@@ -3848,6 +3923,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EA9E180C0557104F00119DF5 /* English */,
+				2CC0C53816B040ED0070A3B7 /* ru */,
 			);
 			name = PXNamePrompt.xib;
 			sourceTree = "<group>";
@@ -3856,6 +3932,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAA0184A054DCC7000EF18C2 /* English */,
+				2CC0C52E16B040EB0070A3B7 /* ru */,
 			);
 			name = PXDuotoneBackgroundConfigurator.xib;
 			sourceTree = "<group>";
@@ -3864,6 +3941,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAA0184F054DCC7B00EF18C2 /* English */,
+				2CC0C53716B040ED0070A3B7 /* ru */,
 			);
 			name = PXMonotoneBackgroundConfigurator.xib;
 			sourceTree = "<group>";
@@ -3872,6 +3950,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAB650850D108D9000274070 /* English */,
+				2CC0C53A16B040EE0070A3B7 /* ru */,
 			);
 			name = PXPaletteController.xib;
 			sourceTree = "<group>";
@@ -3880,6 +3959,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EACDBD800878B37100564512 /* English */,
+				2CC0C52916B040EA0070A3B7 /* ru */,
 			);
 			name = PXBackgroundTemplateView.xib;
 			sourceTree = "<group>";
@@ -3888,6 +3968,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAE126D0054F41A9001208D9 /* English */,
+				2CC0C54A16B040F20070A3B7 /* ru */,
 			);
 			name = PXImageBackgroundConfigurator.nib;
 			sourceTree = "<group>";
@@ -3900,13 +3981,12 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Pixen.entitlements;
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/Pixen_Prefix.h";
 				INFOPLIST_FILE = Resources/Info.plist;
 				PRODUCT_NAME = Pixen;
-				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3916,7 +3996,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Pixen.entitlements;
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = NO;
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
@@ -3925,7 +4005,6 @@
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = /Applications;
 				PRODUCT_NAME = Pixen;
-				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

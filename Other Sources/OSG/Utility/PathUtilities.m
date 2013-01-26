@@ -61,34 +61,34 @@ NSString *GetDescriptionForDocumentType(NSString *uti)
 	CFStringRef cfUTI = (__bridge CFStringRef) uti;
 	
 	if (UTTypeEqual(cfUTI, CFSTR("com.Pixen.pxim"))) {
-		return @"Pixen image";
+		return NSLocalizedString(@"Pixen image", nil);
 	}
 	else if (UTTypeEqual(cfUTI, CFSTR("com.Pixen.pxan"))) {
-		return @"Pixen animation";
+		return NSLocalizedString(@"Pixen animation", nil);
 	}
 	else if (UTTypeEqual(cfUTI, CFSTR("com.opensword.pxim"))) {
-		return @"Pixen image";
+		return NSLocalizedString(@"Pixen image", nil);
 	}
 	else if (UTTypeEqual(cfUTI, CFSTR("com.opensword.pxan"))) {
-		return @"Pixen animation";
+		return NSLocalizedString(@"Pixen animation", nil);
 	}
 	else if (UTTypeEqual(cfUTI, CFSTR("com.compuserve.gif"))) {
-		return @"GIF image";
+		return NSLocalizedString(@"GIF image", nil);
 	}
 	else if (UTTypeEqual(cfUTI, CFSTR("public.jpeg"))) {
-		return @"JPEG image";
+		return NSLocalizedString(@"JPEG image", nil);
 	}
 	else if (UTTypeEqual(cfUTI, CFSTR("public.png"))) {
-		return @"PNG image";
+		return NSLocalizedString(@"PNG image", nil);
 	}
 	else if (UTTypeEqual(cfUTI, CFSTR("public.tiff"))) {
-		return @"TIFF image";
+		return NSLocalizedString(@"TIFF image", nil);
 	}
 	else if (UTTypeEqual(cfUTI, CFSTR("com.microsoft.bmp"))) {
-		return @"BMP image";
+		return NSLocalizedString(@"BMP image", nil);
 	}
 	else if (UTTypeEqual(cfUTI, CFSTR("com.microsoft.ico"))) {
-		return @"ICO image";
+		return NSLocalizedString(@"ICO image", nil);
 	}
 	
 	@throw [NSException exceptionWithName:NSGenericException

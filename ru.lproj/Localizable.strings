@@ -1,0 +1,502 @@
+/* Background Label */
+"BACKGROUND_LABEL" = "Фон";
+/* Background Tooltip */
+"BACKGROUND_TOOLTIP" = "Показать параметры фона";
+
+/* Layers Label */
+"LAYERS_LABEL" = "Слои";
+/* Layers Tooltip */
+"LAYERS_TOOLTIP" = "Показать/спрятать список слоёв в документе";
+
+/* Document Palette Label */
+"DOCUMENT_PALETTE_LABEL" = "Palette";
+/* Document Palette Tooltip */
+"DOCUMENT_PALETTE_TOOLTIP" = "Open a palette window for this document";
+
+/* Preview Label */
+"PREVIEW_LABEL" = "Предпросмотр";
+/* Preview Tooltip */
+"PREVIEW_TOOLTIP" = "Открыть или закрыть панель предпросмотра для этого документа";
+
+/* Tool Properties Label */
+"TOOL_PROPERTIES_LABEL" = "Настройки инструмента";
+/* Tool Properties Tooltip */
+"TOOL_PROPERTIES_TOOLTIP" = "Показать/спрятать панель настроек текущего инструмента";
+
+/* Grid Label */
+"GRID_LABEL" = "Сетка";
+/* Grid Tooltip */
+"GRID_TOOLTIP" = "Показать параметры сетки";
+
+/* Color Bank Label */
+"COLOR_BANK_LABEL" = "Color Bank";
+/* Color Bank Tooltip */
+"COLOR_BANK_TOOLTIP" = "Open and close the color bank";
+
+/* Color Palette Label */
+"COLOR_PALETTE_LABEL" = "Палитра";
+/* Color Palette Tooltip */
+"COLOR_PALETTE_TOOLTIP" = "Показать/спятать цветовую палитру";
+
+/* Zoom Fit Label */
+"ZOOM_FIT_LABEL" = "Подогнать размер";
+/* Zoom Fit Tooltip */
+"ZOOM_FIT_TOOLTIP" = "Подогнать размеры холста под размер экрана";
+
+/* Zoom Actual Label */
+"ZOOM_ACTUAL_LABEL" = "Действительный размер";
+/* Zoom Actual Tooltip */
+"ZOOM_ACTUAL_TOOLTIP" = "Восстановить оригинальный масштаб изображения";
+
+/* Scale Label */
+"SCALE_LABEL" = "Масштабирование";
+/* Scale Tooltip */
+"SCALE_TOOLTIP" = "Масштабировать изображение";
+
+/* Resize Label */
+"RESIZE_LABEL" = "Размеры";
+/* Resize Tooltip */
+"RESIZE_TOOLTIP" = "Изменить размеры холста";
+
+/* Zoom Label */
+"ZOOM_LABEL" = "Увеличение";
+/* Zoom Tooltip */
+"ZOOM_TOOLTIP" = "Изменить процент увеличения изображения";
+
+/* New Animation prompt title */
+"NEW_ANIMATION" = "Новая анимация";
+/* Animation size prompt */
+"ANIMATION_SIZE_PROMPT" = "Укажите размеры кадра анимации";
+
+/* Backgrounds Save As */
+"BACKGROUNDS_SAVE_AS" = "Сохранит как новую конфигурацию…";
+/* Backgrounds Delete */
+"BACKGROUNDS_DELETE" = "Удалить текущую конфигурацию";
+
+/* Flat Background */
+"FLAT_BACKGROUND" = "Однородный фон";
+/* Image Background */
+"IMAGE_BACKGROUND" = "Фон-картинка";
+/* Checkered Background */
+"CHECKERED_BACKGROUND" = "Фон в клетку";
+/* Slashed Background */
+"SLASHED_BACKGROUND" = "Разлинованный фон";
+
+/* Main Background */
+"Main Background" = "Основной фон";
+/* Alternate Background */
+"Alternate Background" = "Дополнительный фон";
+
+/* Palette Save As */
+"PALETTE_SAVE_AS" = "Сохранить как новую палитру…";
+/* Palette Set Default */
+"PALETTE_SET_DEFAULT" = "Сделать палитрой по умолчанию";
+/* Palette Delete */
+"PALETTE_DELETE" = "Удалить текущую палитру…";
+/* Generated Palette */
+"GENERATED_PALETTE" = "Сгенерированная палитра";
+/* Crayons */
+"CRAYONS" = "Карандаши (пастель)";
+/* Web Safe Colors */
+"WEB_SAFE_COLORS" = "Web-безопасные цвета";
+/* Grayscale */
+"GRAYSCALE" = "Оттенки серого";
+/* No User Palettes */
+"NO_USER_PALETTES" = "Нет пользовательских палитр";
+/* New Palette Prompt */
+"NEW_PALETTE_PROMPT" = "Укажите имя для этой палитры";
+/* Change Palette Color */
+"Change Palette Color" = "Изменить цвета палитры";
+/* Change Palette */
+"Change Palette" = "Изменить палитру";
+/* Crash Recovery */
+"CRASH_RECOVERY" = "Восстановление после сбоя";
+/* Crash Text */
+"CRASH_TEXT" = "Pixen экстренно завершил свою работу в предыдущий раз, но успел сделать резервные копии всех ваших несохранённых изменений. Если вы хотите сохранить эти восстановленные файлы вместо оригинальных, воспользуйтесь пунктом «Сохранить как…» из меню «Файл».";
+
+/* Width */
+"WIDTH" = "Ширина";
+/* Width Abbreviature */
+"W:" = "Ш:";
+/* Height */
+"HEIGHT" = "Высота";
+/* Height Abbreviature */
+"H:" = "В:";
+
+/* Red */
+"RED" = "Красный";
+/* Green */
+"GREEN" = "Зелёный";
+/* Blue */
+"BLUE" = "Синий";
+/* Alpha */
+"ALPHA" = "Альфа";
+
+/* Properties */
+"PROPERTIES" = "Свойства";
+/* Left */
+"LEFT" = "Левая кнопка";
+/* Right */
+"RIGHT" = "Правая кнопка";
+
+/* Modify Pattern… */
+"MODIFY_PATTERN" = "Изменить шаблон…";
+/* Set Pattern… */
+"SET_PATTERN" = "Выбрать шаблон…";
+
+/* Nearest Neighbor */
+"Nearest Neighbor" = "Поиск ближайшего соседа";
+/* Nearest Neighbor Info */
+"NEAREST_NEIGHBOR_INFO" = "Для каждого пикселя в новом изображении этот алгоритм находит ближайший пиксель в оригинальном изображении и копирует его.  В результате получаются не самые лучше результаты (если вы не масштабируете изображение в «степень двойки» раз, т.е. x2, x4, и т.д).\nАлгоритм «поиска ближайшего соседа» подходит, если вам нужно просто получить бо́льшую по размеру, но максимально схожую с оригиналом картинку.";
+/* Scale2x Info */
+"SCALE2X_INFO" = "На выходе этот алгоритм выдаёт бо́льшие по размеру и сглаженные изображения, сохраняя все оригинальные цвета. Его следует использовать только для масштабирования на степень двойки (x2, x4, и т.д).";
+
+/* Quartz Info */
+"QUARTZ_INFO" = "Этот алгоритм использует стандартные механизмы из Quartz.";
+
+/* --------------- TOOLS --------------- */
+
+/* Pencil Name */
+"PENCIL_NAME" = "Карандаш";
+/* Pencil Action */
+"PENCIL_ACTION" = "Простое рисование";
+
+/* Line Name */
+"LINE_NAME" = "Линия";
+/* Line Action */
+"LINE_ACTION" = "Рисование прямых линий";
+
+/* Eraser Name */
+"ERASER_NAME" = "Ластик";
+/* Eraser Action */
+"ERASER_ACTION" = "Удаление нарисованного";
+
+/* Fill Name */
+"FILL_NAME" = "Заливка";
+/* Fill Action */
+"FILL_ACTION" = "Заливка всего изображения или его части цветом";
+
+/* Eyedropper Name */
+"EYEDROPPER_NAME" = "Пипетка";
+/* Eyedropper Action */
+/* This is unimplemented until we get to palette undo */
+
+/* Zoom Name */
+"ZOOM_NAME" = "Лупа";
+/* Zoom Action */
+/* No undo for Zoom, so no point in having this */
+
+/* Rectangular Selection Name */
+"RECTANGULARSELECTION_NAME" = "Прямоугольное выделение";
+/* Rectangular Selection Action */
+"RECTANGULARSELECTION_ACTION" = "Да, просто выделение";
+
+/* Selection Move Action */
+"SELECTION_MOVE_ACTION" = "Перемещение выделенного фрагмента";
+
+/* Move Name */
+"MOVE_NAME" = "Перемещение";
+/* Move Action */
+"MOVE_ACTION" = "Перемещение всего изображения или выделенной области";
+
+/* Rectangle Name */
+"RECTANGLE_NAME" = "Прямоугольник";
+/* Rectangle Action */
+"RECTANGLE_ACTION" = "Рисование прямоугольников";
+
+/* Ellipse Name */
+"ELLIPSE_NAME" = "Эллипс";
+/* Ellipse Action */
+"ELLIPSE_ACTION" = "Рисование эллипсов";
+
+/* Magic Wand Name */
+"MAGICWAND_NAME" = "Волшебная палочка";
+/* Magic Wand Action */
+"MAGICWAND_ACTION" = "Умное выделение";
+
+/* Lasso Name */
+"LASSO_NAME" = "Лассо";
+/* Lasso Action */
+"LASSO_ACTION" = "Выделение области произвольной формы";
+
+/* Show Alignment Crosshairs */
+"SHOW_ALIGNMENT_CROSSHAIRS" = "Отображать направляющие линии кисти";
+/* Hide Alignment Crosshairs */
+"HIDE_ALIGNMENT_CROSSHAIRS" = "Скрывать направляющие линии кисти";
+
+/* Show Tool Preview */
+"SHOW_TOOL_PREVIEW" = "Show Tool Preview";
+/* Hide Tool Preview */
+"HIDE_TOOL_PREVIEW" = "Hide Tool Preview";
+
+/* Show Tiled View */
+"SHOW_TILED_VIEW" = "Show Tiled View";
+/* Hide Tool Preview */
+"HIDE_TILED_VIEW" = "Hide Tiled View";
+
+/* Show large color swatches */
+"SHOW_LARGE_COLOR_SWATCHES" = "Show large color swatches";
+/* Show small color swatches */
+"SHOW_SMALL_COLOR_SWATCHES" = "Show small color swatches";
+
+/* There is already a system palette by that name. */
+"ALREADY_SYSTEM_PALETTE" = "Палитра с таким именем уже существует. Пожалуйста, выберите другое название.";
+/* Would you like to pick a different name for %@? */
+"PICK_DIFFERENT_NAME" = "Хотите изменить название для «%@»?";
+
+/* About */
+"VERSION_STRING" = "Версия %@";
+
+// new
+
+"ADD_FRAME" = "Добавить кадр";
+"HIDE_PREVIOUS_FRAME_OVERLAY" = "Скрывать предыдущий кадр";
+"SHOW_PREVIOUS_FRAME_OVERLAY" = "Отображать предыдущий кадр";
+"COPY_FRAME" = "Скопировать кадр";
+"CUT_FRAME" = "Вырезать кадр";
+"DUPLICATE_FRAME" = "Дублировать кадр";
+"DELETE_FRAME" = "Удалить кадр";
+
+/* BACKGROUND_OVERWRITE_PROMPT */
+"A background with the name %@ already exists." = "Шаблон фона с именем «%@» уже существует.";
+
+/* Built-in Templates */
+"Built-in Templates" = "Встроенные шаблоны";
+
+/* Built-in Template */
+"Built-in Template" = "Стандартный";
+
+/* CANCEL */
+"Cancel" = "Отмена";
+
+/* Default Templates */
+"Default Templates" = "Шаблоны по умолчанию";
+
+/* DELETE */
+"Delete" = "Удалить";
+
+/* OVERWRITE */
+"Overwrite" = "Заменить";
+
+/* BACKGROUND_DELETE_PROMPT */
+"Really delete background template %@?" = "Вы точно хотите удалить шаблон фона «%@»?";
+
+/* BACKGROUND_DELETE_INFORMATIVE_TEXT */
+"This operation cannot be undone." = "Эта операция не может быть отменена.";
+
+/* User Templates */
+"User Templates" = "Мои шаблоны";
+
+/* BACKGROUND_OVERWRITE_INFORMATIVE_TEXT */
+"Would you like to overwrite it?" = "Вы действительно хотите заменить его?";
+
+/* ALTERNATE_BACKGROUND_INFO */
+"Drag a template here, and it will be displayed when the mouse is outside of the canvas." = "Переместите сюда шаблон, и он будет отображён, когда холст находится не в фокусе.";
+
+/* Main Layer */
+"Main Layer" = "Главный слой";
+
+/* The pasted %@ is too big! */
+"The pasted %@ is too big!" = "Вы пытаетесь вставить %@, чьи размеры превышают размеры холста текущего документа!";
+
+/* Resize Canvas to Fit */
+"Resize Canvas to Fit" = "Увеличить размер холста";
+
+/* Cancel Paste */
+"Cancel Paste" = "Отменить вставку";
+
+/* Paste Anyway */
+"Paste Anyway" = "Всё равно вставить";
+
+/* The pasted %@ is %dx%d, while the canvas is only %dx%d. */
+"The pasted %@ is %dx%d, while the canvas is only %dx%d." = "Его размер %dx%d, тогда как размеры холста всего %dx%d.";
+
+/* layer */
+"layer" = "слой";
+
+/* image */
+"image" = "изображение";
+
+/* Pasted Layer */
+"Pasted Layer" = "Вставленный слой";
+
+/*  Copy */
+" Copy" = " Копия";
+/* */
+"%@ Copy" = "%@ Копия";
+
+/* Promoted Selection */
+"Promoted Selection" = "Выделенный фрагмент";
+
+/* Backgrounds */
+"Backgrounds" = "Настройки фона";
+
+/* Document Palette */
+"Document Palette" = "Текущая палитра";
+
+/* Default %@ */
+"Default %@" = "Стандартный %@";
+
+/* Default Alternate Background */
+"Default Alternate Background" = "Вторичный фон по умолчанию";
+
+/* Install Background Template \"%@\"? */
+"Install Background Template \"%@\"?" = "Импортировать шаблон фона «%@»?";
+
+/* Install */
+"Install" = "Импорт";
+
+/* %@ will be copied to %@. */
+"%@ will be copied to %@." = "%@ будет скопирован в %@.";
+
+/* Install pattern '%@'? */
+"Install pattern '%@'?" = "Импортировать шаблон «%@»?";
+
+/* Confirmation */
+"Confirmation" = "Подтверждение";
+
+/* Install palette '%@'? */
+"Install palette '%@'?" = "Импортировать палитру «%@»?";
+
+/* Duplicate */
+"Duplicate" = "Дублировать";
+
+/* Merge Down */
+"Merge Down" = "Объединить с нижними слоями";
+
+/* Cut */
+"Cut" = "Вырезать";
+
+/* Transform Layer */
+"Transform Layer" = "Изменить слой";
+
+/* Flip Horizontally */
+"Flip Horizontally" = "Отразить по горизонтали";
+
+/* Flip Vertically */
+"Flip Vertically" = "Отразить по вертикали";
+
+/* Rotate 90%@ Left */
+"Rotate 90%@ Left" = "Повернуть на 90%@ против часовой стрелки";
+
+/* Rotate 90%@ Right */
+"Rotate 90%@ Right" = "Повернуть на 90%@ по часовой стрелке";
+
+/* Rotate 180%@ */
+"Rotate 180%@" = "Повернуть на 180%@";
+
+/* New Layer %d */
+"New Layer %d" = "Новый слой %d";
+
+
+/* Presets */
+"Preset" = "Шаблоны…";
+"Save Preset As..." = "Сохранить шаблон как...";
+"Manage Presets..." = "Управление шаблонами...";
+"Enter a name for this preset:" = "Введите имя для этого шаблона:";
+
+/* Temp Layer */
+"Temp Layer" = "Временный слой";
+
+/* Please name the new configuration. */
+"Please name the new configuration." = "Укажите имя для нового элемента.";
+
+/* No Palettes */
+"No Palettes" = "Палитр нет. Ни одной.";
+
+/* Are you sure you want to delete the palette '%@' */
+"Are you sure you want to delete the palette '%@'?" = "Вы точно хотите удалить удалить палитру под названием «%@»?";
+
+/* Untitled Palette */
+"Untitled Palette" = "Безымянная палитра";
+
+/* Rename the palette '%@' */
+"Rename the palette '%@'" = "Переименовать палитру «%@»";
+
+/* Pattern Editor: */
+"Pattern Editor: " = "Редактирование шаблона: ";
+
+/* Are you sure you want to delete the selected pattern? */
+"Are you sure you want to delete the selected pattern?" = "Вы точно хотите удалить выбранный шаблон?";
+
+/* Size To... */
+"Size To..." = "Масштабировать...";
+
+/* Set Background... */
+"Set Background..." = "Выбрать фон...";
+
+/* Backgrounds - Preview */
+"Backgrounds - Preview" = "Фон - Предпросмотр";
+
+/* Color Picker Button Tooltip */
+"Pixen Colors" = "Цвета Pixen";
+
+/* Import Animation From Image Sequence */
+/* Import Panel Prompt */
+"Import" = "Импорт";
+/* Export Panel Prompt */
+"Export" = "Экспорт";
+
+/* Import Panel Title */
+"Import Sequence" = "Серия изображений";
+
+/* Exporting GIF Initial Status Text Format */
+"Exporting GIF... (1 of %ld)" = "Экспорт в GIF… (1 из %ld)";
+
+/* Exporting GIF Status Text Format */
+"Exporting GIF... (%ld of %ld)" = "Экспорт в GIF… (%ld из %ld)";
+
+/* Error Alert Title */
+"Error" = "Проблема, Хьюстон";
+/* QT Export Error Message */
+"Could not export QuickTime movie." = "Не могу экспортировать файл в формат QuickTime видео.";
+
+/* Export to QT Panel Label */
+"Export to:" = "Экспорт в:";
+
+/* Hide Grid */
+"Hide Grid" = "Скрыть сетку";
+
+/* Show Grid */
+"Show Grid" = "Показать сетку";
+
+/* Hide Info Bar */
+"Hide Info Bar" = "Скрыть информационное табло";
+
+/* Show Info Bar */
+"Show Info Bar" = "Показать информационное табло";
+
+/* Palettes were imported alert message */
+"%ld palette(s) were imported." = "Все палитры (всего — %ld) были успешно импортированы.";
+
+/* Palettes Were Imported Alert Title */
+"Success" = "Это успех!";
+
+
+/* --------------- Pallete Types --------------- */
+
+/* Localized value of `PixenPaletteType` */
+"PixenPaletteType" = "Палитра Pixen (.pxpalette)";
+
+/* Localized value of `MicrosoftPaletteType` */
+"MicrosoftPaletteType" = "RAW палитра Microsoft (.pal)";
+
+/* Localized value of `JascPaletteType` */
+"JascPaletteType" = "Палитра Jasc Paint Shop Pro (.pal)";
+
+/* Localized value of `AdobePaletteType` */
+"AdobePaletteType" = "Таблица цветов Adobe (.act)";
+
+/* Localized value of `GimpPaletteType` */
+"GimpPaletteType" = "Палитра Gimp(.gpl)";
+
+/* --------------- UTI Types --------------- */
+
+"Pixen image" = "Изображение Pixen";
+"Pixen animation" = "Анимация Pixen";
+"GIF image" = "Анимация GIF";
+"JPEG image" = "Изображение JPEG";
+"PNG image" = "Изображение PNG";
+"TIFF image" = "Изображение TIFF";
+"BMP image" = "Изображение BMP";
+"ICO image" = "Изображение ICO";

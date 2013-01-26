@@ -132,7 +132,7 @@
 		OSProgressPopup *popup = [OSProgressPopup sharedProgressPopup];
 		[popup setProgress:0];
 		[popup setMaxProgress:numberOfCels];
-		[popup beginOperationWithStatusText:[NSString stringWithFormat:@"Exporting GIF... (1 of %ld)", numberOfCels]
+		[popup beginOperationWithStatusText:[NSString stringWithFormat:NSLocalizedString(@"Exporting GIF... (1 of %ld)", @"Exporting GIF Initial Status Text Format"), numberOfCels]
 							   parentWindow:[self.windowController window]];
 		
 		PXPalette *palette = [exportAnimation newFrequencyPaletteForAllCels];
@@ -144,7 +144,7 @@
 			PXCel *cel = [exportAnimation celAtIndex:i];
 			[exporter writeCanvas:[cel canvas] withDuration:[cel duration]];
 			
-			[popup setStatusText:[NSString stringWithFormat:@"Exporting GIF... (%ld of %ld)", i + 1, numberOfCels]];
+			[popup setStatusText:[NSString stringWithFormat:NSLocalizedString(@"Exporting GIF... (%ld of %ld)", @"Exporting GIF Status Text Format"), i + 1, numberOfCels]];
 			[popup setProgress:i + 1];
 		}
 		

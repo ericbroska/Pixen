@@ -449,7 +449,9 @@
 	NSSize size = [[[animation celAtIndex:0] canvas] size];
 	
 	if (![exporter beginExportToURL:url size:size]) {
-		NSRunAlertPanel(@"Error", @"Could not export QuickTime movie.", @"OK", nil, nil);
+		NSRunAlertPanel(NSLocalizedString(@"Error", @"Error Alert Title"),
+                        NSLocalizedString(@"Could not export QuickTime movie.", @"QT Export Error Message"),
+                        @"OK", nil, nil);
 		return;
 	}
 	
@@ -465,9 +467,9 @@
 {
 	NSSavePanel *savePanel = [NSSavePanel savePanel];
 	[savePanel setCanCreateDirectories:YES];
-	[savePanel setNameFieldLabel:@"Export to:"];
+	[savePanel setNameFieldLabel:NSLocalizedString(@"Export to:", @"Export to QT Panel Label")];
 	[savePanel setAllowedFileTypes:@[ (__bridge NSString *) kUTTypeQuickTimeMovie]];
-	[savePanel setPrompt:@"Export"];
+	[savePanel setPrompt:NSLocalizedString(@"Export", @"Export Panel Prompt")];
 	
 	[savePanel beginSheetModalForWindow:[self window]
 					  completionHandler:^(NSInteger result) {

@@ -43,6 +43,7 @@ NSString *PixenImageFileTypeOld = @"com.opensword.pxim";
 NSString *PixenAnimationFileType = @"com.Pixen.pxan";
 NSString *PixenAnimationFileTypeOld = @"com.opensword.pxan";
 
+//these get localized in PXPaletteExporter.m's -types.
 NSString *PixenPaletteType = @"Pixen Palette Format (.pxpalette)";
 NSString *MicrosoftPaletteType = @"Microsoft RAW Palette Format (.pal)";
 NSString *JascPaletteType = @"Jasc Paint Shop Pro Palette Format (.pal)";

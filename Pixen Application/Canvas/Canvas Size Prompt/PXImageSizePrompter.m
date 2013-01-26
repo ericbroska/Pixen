@@ -83,7 +83,7 @@
 	NSMenu *menu = [presetsButton menu];
 	
 	[menu removeAllItems];
-	[menu addItemWithTitle:@"Preset" action:NULL keyEquivalent:@""];
+	[menu addItemWithTitle:NSLocalizedString(@"Preset", @"Preset") action:NULL keyEquivalent:@""];
 	
 	for (NSString *name in [manager presetNames]) {
 		[menu addItemWithTitle:name
@@ -95,11 +95,11 @@
 		[menu addItem:[NSMenuItem separatorItem]];
 	}
 	
-	[menu addItemWithTitle:@"Save Preset As..."
+	[menu addItemWithTitle:NSLocalizedString(@"Save Preset As...", @"Save Preset As...")
 					action:@selector(savePresetAs:)
 			 keyEquivalent:@""];
 	
-	[menu addItemWithTitle:@"Manage Presets..."
+	[menu addItemWithTitle:NSLocalizedString(@"Manage Presets...", @"Manage Presets...")
 					action:@selector(managePresets:)
 			 keyEquivalent:@""];
 }
@@ -124,7 +124,7 @@
 	}
 	
 	[prompter promptInWindow:[self window]
-				promptString:@"Enter a name for this preset:"
+				promptString:NSLocalizedString(@"Enter a name for this preset:",@"Enter a name for this preset:")
 				defaultEntry:@""];
 }
 

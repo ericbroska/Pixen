@@ -43,7 +43,7 @@ int kPXColorPickerMode = 23421337;
 
 - (NSString *)buttonToolTip
 {
-	return @"Pixen Colors";
+	return NSLocalizedString(@"Pixen Colors", @"Color Picker Button Tooltip");
 }
 
 - (void)insertNewButtonImage:(NSImage *)newButtonImage in:(NSButtonCell *)buttonCell

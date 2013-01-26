@@ -225,10 +225,10 @@
 	else if ([anItem action] == @selector(toggleGrid:))
 	{
 		if ([[canvas grid] shouldDraw]) {
-			[anItem setTitle:@"Hide Grid"];
+			[anItem setTitle:NSLocalizedString(@"Hide Grid", @"Hide Grid")];
 		}
 		else {
-			[anItem setTitle:@"Show Grid"];
+			[anItem setTitle:NSLocalizedString(@"Show Grid", @"Show Grid")];
 		}
 		
 		return YES;
@@ -236,10 +236,10 @@
 	else if ([anItem action] == @selector(toggleInfo:))
 	{
 		if ([[NSUserDefaults standardUserDefaults] boolForKey:PXShowInfoKey]) {
-			[anItem setTitle:@"Hide Info Bar"];
+			[anItem setTitle:NSLocalizedString(@"Hide Info Bar", @"Hide Info Bar")];
 		}
 		else {
-			[anItem setTitle:@"Show Info Bar"];
+			[anItem setTitle:NSLocalizedString(@"Show Info Bar", @"Show Info Bar")];
 		}
 		
 		return YES;

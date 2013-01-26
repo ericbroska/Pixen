@@ -21,7 +21,7 @@
 
 - (NSString *)algorithmInfo
 {
-	return @"This algorithm uses Quartz's built-in scaling behavior.";
+	return NSLocalizedString(@"QUARTZ_INFO", @"Quartz Info");
 }
 
 - (BOOL)canScaleCanvas:(PXCanvas *)canvas toSize:(NSSize)size
