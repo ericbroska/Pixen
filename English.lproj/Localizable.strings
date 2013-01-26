@@ -306,7 +306,7 @@
 "Paste Anyway" = "Paste Anyway";
 
 /* The pasted %@ is %dx%d, while the canvas is only %dx%d. */
-"The pasted %@ is %dx%d, while the canvas is only %dx%d." = "The pasted %@ is %dx%d, while the canvas is only %dx%d."";
+"The pasted %@ is %dx%d, while the canvas is only %dx%d." = "The pasted %@ is %dx%d, while the canvas is only %dx%d.";
 
 /* layer */
 "layer" = "layer";
